@@ -14,8 +14,8 @@
 
 SSD1306Brzo display(0x3c, 5, 4);   // Initialize OLED display
 
-const char* ssid = "Schnitzelstein";
-const char* password = "klaaskippegaas";
+const char* ssid = "yourssid";
+const char* password = "yourpassword";
 
 const char* host = "services1.arcgis.com";
 String request = "/0MSEUqKaxRlEPj5g/arcgis/rest/services/Coronavirus_2019_nCoV_Cases/FeatureServer/1/query?where=Country_Region%20like%20'%25INDONESIA%25'&outFields=Last_Update,Confirmed,Deaths,Recovered&returnGeometry=false&outSR=4326&f=json";
